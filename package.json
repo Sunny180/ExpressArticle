@@ -1,0 +1,37 @@
+{
+  "name": "try",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devStart": "nodemon server.js",
+    "devStartAuth": "nodemon authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.4",
+    "morgan": "~1.9.1"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.12"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "\"http://2100493@10.1.42.237:30001/r/Training/2100493/exercise_3.git \""
+  },
+  "description": ""
+}
